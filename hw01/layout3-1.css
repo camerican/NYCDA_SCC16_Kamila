@@ -1,0 +1,33 @@
+style {
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center
+    }
+
+ h1, h2 {
+ 	text-align: center;
+ 	font-style: "Georgia";
+ 	color: white;
+ }
+
+ body {
+ 	background-color: #000080;
+ }
+
+nav {
+	background-color: #b3b3b3;	
+}
+
+nav ul li {
+	display: inline-block;
+	padding: 20px;	margin-right: 200px;
+}
+
+nav ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}

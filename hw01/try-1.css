@@ -1,0 +1,60 @@
+.my-float {
+	margin: 300px;
+	width: 900px;
+	height:100px;
+	margin-top: 20px;
+	float: center;
+	text-align: left;
+}
+div{
+	margin: 20px;
+	
+}
+h1, h2{
+	text-align: center;
+	color: #fc7878;   
+	
+}
+
+header {
+	background-color: purple;
+
+}
+
+img {
+	background-image: url('../img.jpeg');
+	margin-left: 10px;
+	height: 100px;
+	display: block;
+}
+
+.move-me {
+	position: fixed;
+	top: 125px;
+	margin-right: 50px;
+}
+
+.newspaper {
+	column-count: 3;
+	margin: 20px;
+} 
+span{
+	color:red;
+	display: bold;
+}
+
+.paragraph {
+	font-family: Georgia bold;
+}
+
+p{
+	text-indent: 20px;
+}
+
+body {
+	background-color: #fc7878;
+	color: purple;
+	font: bold;
+
+}
+
