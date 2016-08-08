@@ -1,0 +1,119 @@
+h1{
+  text-align: center;
+  font-size: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 30px;
+  margin-left: 30px;
+  padding-left: 30px;
+}
+
+img.align-left{
+  float: left;
+  margin-right: 10px;
+}
+img.align-left{
+  float: left;
+  margin-right: 10px;
+}
+p{
+  text-align: left;
+  font-size: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 30px;
+  margin-left: 30px;
+  padding-left: 30px;
+  padding-top: 20px;
+  color: yellow;
+}
+
+#countdown-wrap {
+  width: 100%;
+  height: 300px;
+  //border: 1px solid black;
+  padding: 20px;
+  font-family: arial;
+}
+
+#goal {
+  font-size: 48px;
+  text-align: right;
+  width: 80%;
+  @media only screen and (max-width : 640px) {
+    text-align: center;  
+  }
+  
+}
+
+#glass {
+  width: 80%;
+  height: 20px;
+  background: #c7c7c7;
+  border-radius: 10px;
+  float: left;
+  overflow: hidden;
+}
+
+#progress {
+  float: left;
+  width: 16%;
+  height: 20px;
+  background: #AB2430;
+  z-index: 333;
+  //border-radius: 5px;
+}
+
+.goal-stat {
+  width: 20%;
+  height: 30px;
+  padding: 10px;
+  float: left;
+  margin: 0;
+  
+  @media only screen and (max-width : 640px) {
+    width: 40%;
+    text-align: center;
+  }
+}
+
+.goal-number, .goal-label {
+  display: block;
+}
+
+.goal-number {
+  font-weight: bold;
+}
+
+form{ 
+  padding-left: 200px;
+  font-size: 40px;
+}
+
+fieldset{
+  font-size: 40px;
+  float: right;
+}
+
+element.style {
+}
+body {
+    background-size: cover;
+    background-attachment: fixed;
+}
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+}
+body {
+    margin: 0;
+}
+
+body{ 
+  background-image: url(http://images.natureworldnews.com/data/images/full/2133/father-and-child.jpg);
+  background-position: center bottom; 
+  background-attachment: fixed;
+}
