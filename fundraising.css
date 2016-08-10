@@ -1,3 +1,27 @@
+nav {
+  background-color: #b3b3b3;  
+  position: fixed;
+  width: 100%;
+  top:0;
+  opacity: 0.9;
+}
+
+nav ul li {
+  display: inline-block;  
+  padding: 0;
+  margin-right: 150px;
+  margin-left:150px;
+  margin-top: 0;
+  color: white;
+  list-style: none;
+  font-size: 16px;
+
+}
+
+li a:hover {
+    background-color: orange;
+    color: white;
+}
 h1{
   text-align: center;
   font-size: 50px;
@@ -6,26 +30,31 @@ h1{
   margin-right: 30px;
   margin-left: 30px;
   padding-left: 30px;
+  color: yellow;
+  padding-top: 20px;
 }
 
 img.align-left{
   float: left;
+  clear: 
   margin-right: 10px;
 }
 img.align-left{
   float: left;
   margin-right: 10px;
+  clear: 
 }
 p{
   text-align: left;
-  font-size: 30px;
+  font-size: 20px;
   margin-top: 20px;
   margin-bottom: 20px;
   margin-right: 30px;
   margin-left: 30px;
   padding-left: 30px;
   padding-top: 20px;
-  color: yellow;
+  color: #fde856;
+  font-size: bold;
 }
 
 #countdown-wrap {
@@ -85,9 +114,13 @@ p{
   font-weight: bold;
 }
 
-form{ 
-  padding-left: 200px;
+#countdown-wrap{ 
+  padding-bottom: 30px;
+  padding-left: 50px;
   font-size: 40px;
+  color: yellow;
+  text-align: center;
+  display: inline-block;
 }
 
 fieldset{
@@ -100,15 +133,11 @@ element.style {
 body {
     background-size: cover;
     background-attachment: fixed;
-}
-body {
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 14px;
     line-height: 1.42857143;
     color: #333;
     background-color: #fff;
-}
-body {
     margin: 0;
 }
 
@@ -116,4 +145,47 @@ body{
   background-image: url(http://images.natureworldnews.com/data/images/full/2133/father-and-child.jpg);
   background-position: center bottom; 
   background-attachment: fixed;
+}
+
+td:nth-child(1){
+   padding-top:  10px;
+   padding-bottom: 10px;
+   padding-left: 10px;
+   padding-right: 10px;
+}
+
+td:nth-child(2){
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.num1{
+    padding-top: 10px;
+    font-size: 20px;
+}
+.num2{
+    padding-top: 20px;
+    font-size: 20px;
+}
+.num3{
+    padding-top: 20px;
+    font-size: 20px;
+}
+table{
+    border-collapse: inherit;
+    border-spacing: 4px;
+    background-color: yellow;
+    margin-left: 50px;
+    margin-top: 40px;
+    font-size: 25px;
+}
+button{
+  margin-left: 80px;
+  margin-top: 5px;
+}
+#move{
+  margin-top: 90px;
+  margin-left: 50px;
+  padding-top: 50px;
 }
