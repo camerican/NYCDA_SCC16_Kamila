@@ -1,0 +1,54 @@
+span {
+	color: blue;
+}
+.first {
+	display: block;
+	width: 250px;
+	margin-left: 500px;
+	margin-top: 0px;
+	padding: 10px;
+	text-align: right;
+	text-transform: lowercase;
+	border-width: 5px;
+  font-size: 20px;
+	border-width: 5px;
+	border-color: black;
+	border-style: solid;
+	
+}
+
+.second{
+	display: inline-block;
+	width: 250px;
+	text-align: center;
+	text-transform: capitalize;
+  background-color: green;
+  	border-color: black;
+	border-style: dotted;
+	font-family: serif;
+
+}
+
+.third{
+	display: inline-block;
+	width: 250px;
+	color: navy;
+	font: bold;
+	border-width: 5px;
+	border-color: black;
+	border-style: dashed;
+}
+
+.fourth{
+	display: inline-block;
+	color: hotpink;
+	width: 250px;
+	border-width: 5px;
+	border-color: black;
+	border-style: double;
+
+}
+div{
+	font-size: 100%;
+	background-color: rgba(100, 20, 200, .86);
+	width: 10em;
