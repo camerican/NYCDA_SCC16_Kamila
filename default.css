@@ -1,12 +1,9 @@
-
 nav {
 	background-color: #b3b3b3;	
 	position: fixed;
 	width: 100%;
 	top:0;
 	opacity: 0.9;
-
-
 }
 
 nav ul li {
@@ -18,50 +15,6 @@ nav ul li {
 	color: white;
 	list-style: none;
 	font-size: 16px;
-
-}
-
-li a:hover {
-    background-color: orange;
-    color: white;
-}
-
-h1, h2, h3 {
- 	text-align: center;
- 	font-style: "Georgia";
- 	color: #696969;
- 	}
-
- a {
- 	color: white;
- }
-
- img {
- 	width: 40%;
- 	height: auto;
- 	display: block;
- 	margin: auto;
- }
-
- img:hover {
-   opacity: 0.5;
-   filter: alpha(opacity=50); 
-
-    }
-
-   body {
-   	color: #696969;
-   	margin: center;
-   	padding: 70px;
-   	font-size: 20px;
-
-
-   }
-
-   footer {
-	color: #696969;
-	text-align: center;
-
 }
 
 li {
@@ -71,25 +24,65 @@ li {
     margin-left: 80px;
 }
 
+li a:hover {
+  background-color: orange;
+  color: white;
+}
+
+a {
+ 	color: white;
+ }
+
+body {
+		color: #696969;
+   	padding: 0;
+   	font-size: 20px;
+   	margin: 0;
+   }   
+
+.first {
+	margin-top: 15%;
+	display: inline-block;
+	width: 300px;
+	margin-left: 2%;
+  padding: 0 10px 0 10px;
+  vertical-align: top;
+}
+
+.first img {
+ margin-left: 70px;
+}
+
+#cc {
+	margin-left: 7%;
+}
+
+h1, h2, h3 {
+ 	text-align: center;
+ 	font-style: "Georgia";
+ 	color: #696969;
+ 	}
+
+img {
+ 	width: 50%;
+ 	height: auto;
+ 	display: block;
+ 	margin-left: 250px;
+ }
+
+img:hover {
+  opacity: 0.5;
+  filter: alpha(opacity=50); 
+    }
+
+footer {
+	color: #696969;
+	text-align: center;
+}
+
 .act {
 	/*font-size: 20px;*/
 	color: grey;
-}
-
- /* .second {
-	display: inline-block;
-	width: 250px;
-	text-align: center;
-	text-transform: capitalize;
-  background-color: green;
-  	border-color: black;
-	border-style: dotted;
-	font-family: serif;
-}*/
-
-.column1 {
-	display: inline-block;
-	margin: 5px;
 }
 
 .move-me {
