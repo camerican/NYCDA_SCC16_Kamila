@@ -1,3 +1,10 @@
+body {
+  background-color: white;
+  color: red;
+  margin: 0;
+  padding: 0;   
+}
+
 nav {
 	background-color: #b3b3b3;	
 	position: fixed;
@@ -9,10 +16,10 @@ nav {
 nav ul li {
 	display: inline-block;	
 	padding: 0;
-	margin-right: 50px;
-	margin-left:26px;
+	margin-right: 95px;
+	margin-left:95px;
 	margin-top: 0;
-	color: purple;
+	color: white;
 	list-style: none;
 	font-size: 16px;
 }
@@ -24,29 +31,38 @@ li {
     margin-left: 80px;
 }
 
+a {
+  border-radius: 2px;
+}
+
+li a:visited {
+  color: red;
+}
+
 li a:hover {
-  background-color: orange;
+  background-color: black;
   color: white;
+  border-radius: 2px;
 }
 
 .my-float1 {
 	margin: 300px;
-	width: 300px;
+	width: 330px;
 	height:100px;
 	margin-top: 20px;
 	float: left;
-	text-align: left;
+	text-align: justify;
 	position: left;
 
 }
 
 .my-float2 {
 	margin: 143px;
-    width: 300px;
+    width: 330px;
     height: 36px;
     margin-top: -403px;
     float: right;
-    text-align: right;
+    text-align: justify;
     position: right;
 }
 
@@ -80,8 +96,6 @@ li a:hover {
     vertical-align: top;
 	
 }
-
-
 div{
 	margin: 20px;
 
@@ -93,18 +107,20 @@ div{
 
 h1 {
 	text-align: center;
-	color: #fc7878;
+	color: red;
 	padding-top: 70px;
 }
 
 h2 {
 	text-align: center;
-	color: #fc7878;
-	padding-top: 0;
+  padding-top: 60px;
+  margin-bottom: 50px;
+	color: red;
+	
 }
 
 header {
-	background-color: purple;
+	background-color: black;
 
 }
 
@@ -112,6 +128,7 @@ img {
 	background-image: url('../img.jpg');
 	margin-left: 10px;
 	height: 100px;
+  width: 100px;
 	display: block;
 }
 
@@ -129,19 +146,12 @@ span{
 	color:red;
 	display: bold;
 }
-
+  
 .paragraph {
 	font-family: Georgia bold;
 }
 
 p{
 	text-indent: 20px;
-}
-
-body {
-	background-color: #fc7878;
-	color: purple;
-	font: bold;
-
 }
 
