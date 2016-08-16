@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+}
+
+.clock {
+  width: 500px;
+  height: 180px;
+  font-size: 32px;
+  font-family:Lucida Console, serif,;
+  background-color: darkgreen;
+  border:3px dashed black;
+}
+
+.clock > div {
+  text-align: center;
+  vertical-align: middle;
+  float: left;
+  width: 33%;
+  height: 170px;
+  line-height: 170px;
+  color:black;
+  border: 2px solid yellow;
+}
