@@ -1,0 +1,202 @@
+nav {
+  background-color: #b3b3b3;  
+  position: fixed;
+  width: 100%;
+  top:0;
+  opacity: 0.9;
+}
+
+nav ul li {
+  display: inline-block;  
+  padding: 0;
+  margin-right: 150px;
+  margin-left:150px;
+  margin-top: 0;
+  list-style: none;
+  font-size: 16px;
+
+}
+
+li a:hover {
+    background-color: orange;
+    color: white;
+}
+
+a {
+  color: yellow;
+  text-decoration: none;
+ }
+
+h1{
+  text-align: center;
+  font-size: 50px;
+  margin-top: 100px;
+  margin-bottom: 20px;
+  margin-right: 30px;
+  margin-left: 30px;
+  padding-left: 30px;
+  color: yellow;
+  padding-top: 20px;
+}
+
+img.align-left{
+  float: left;
+  clear: 
+  margin-right: 10px;
+}
+
+img.align-left{
+  float: left;
+  margin-right: 10px;
+  clear: 
+}
+
+p{
+  text-align: left;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 30px;
+  margin-left: 30px;
+  padding-left: 30px;
+  padding-top: 20px;
+  color: #fde856;
+  font-size: bold;
+}
+
+#countdown-wrap {
+  width: 100%;
+  height: 300px;
+  //border: 1px solid black;
+  padding: 20px;
+  font-family: arial;
+}
+
+#goal {
+  font-size: 48px;
+  text-align: right;
+  width: 80%;
+  @media only screen and (max-width : 640px) {
+    text-align: center;  
+  }
+  
+}
+
+#glass {
+  width: 80%;
+  height: 20px;
+  background: #c7c7c7;
+  border-radius: 10px;
+  float: left;
+  overflow: hidden;
+}
+
+#progress {
+  float: left;
+  width: 16%;
+  height: 20px;
+  background: #AB2430;
+  z-index: 333;
+  //border-radius: 5px;
+}
+
+.goal-stat {
+  width: 20%;
+  height: 30px;
+  padding: 10px;
+  float: left;
+  margin: 0;
+  
+  @media only screen and (max-width : 640px) {
+    width: 40%;
+    text-align: center;
+  }
+}
+
+.goal-number, .goal-label {
+  display: block;
+}
+
+.goal-number {
+  font-weight: bold;
+}
+
+#countdown-wrap{ 
+  padding-bottom: 30px;
+  padding-left: 50px;
+  font-size: 40px;
+  color: yellow;
+  text-align: center;
+  display: inline-block;
+}
+
+fieldset{
+  font-size: 40px;
+  float: right;
+}
+
+element.style {
+}
+body {
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+    margin: 0;
+}
+
+body{ 
+  background-image: url(http://images.natureworldnews.com/data/images/full/2133/father-and-child.jpg);
+  background-position: center bottom; 
+  background-attachment: fixed;
+}
+
+td:nth-child(1){
+   padding-top:  10px;
+   padding-bottom: 10px;
+   padding-left: 10px;
+   padding-right: 10px;
+}
+
+td:nth-child(2){
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.num1{
+    padding-top: 10px;
+    font-size: 20px;
+}
+.num2{
+    padding-top: 20px;
+    font-size: 20px;
+}
+.num3{
+    padding-top: 20px;
+    font-size: 20px;
+}
+table{
+    border-collapse: inherit;
+    border-spacing: 4px;
+    background-color: yellow;
+    margin-left: 50px;
+    margin-top: 7px;
+    font-size: 25px;
+}
+button{
+    margin-left: 50px;
+    margin-top: 13px;
+    background-color: yellow;
+    width: 169px;
+    font-size: 20px
+}
+
+#move{
+  margin-top: 90px;
+  margin-left: 50px;
+  padding-top: 50px;
+}
