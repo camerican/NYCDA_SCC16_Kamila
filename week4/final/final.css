@@ -1,0 +1,248 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: rgba(0,0,0,0.3);
+  position: fixed;
+  width: 100%;
+  top: 0;
+
+ 
+}
+li a:hover {
+  color: red;
+  cursor: pointer;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 0;
+  margin-left: 10px;
+  margin-right: 95px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+#logo img {
+  width: 80px;
+  height: 80px;
+  float: right;
+  position: fixed;
+  right: 1%;
+  top: 0;
+  z-index: 1000;
+}
+
+header {
+    margin-top: 75px;
+    width: 102%;
+    margin-left: -8px;
+    opacity: 0.7;
+    color: white;
+    padding-left: 150px;   
+}
+
+h1 {
+  margin-top: 75px;
+}
+
+*video.fullscreen {
+  position: fixed;
+  width: auto;
+  height: auto;
+  z-index: -1; 
+}
+
+#social_media, .contact {
+  color: grey;
+}
+
+p, h1 {
+  color: grey;
+  margin:auto;
+}
+
+strong {
+  font-size: 35px;
+}
+
+
+/*This is the about page*/
+#bio1 {
+  
+  margin-top: 100px;
+  margin-left: 20px;
+  float: left;
+  text-align: justify;
+  padding: 10px;
+  width: 49%;
+  height: 630px;
+}
+
+#bio2  {
+  float: right;
+  width: 49%;
+}
+
+#bio2 img {
+  width: 100%;
+  margin-top: 100px;
+}
+
+footer {
+  color: grey;
+  width: 100%;
+  float: left;
+  clear: both;
+  text-align: center;
+  padding-top: 10%;
+}
+
+/* for the services page*/
+#iconiq1 {
+  background-image: url(makeover1.jpg);
+}
+
+#iconiq2 {
+  background-image: url(makeover2.jpg);
+}
+
+#iconiq3 {
+  background-image: url(makeover3.jpg);
+}
+
+#iconiq4 {
+  background-image: url(makeover4.jpg);
+}
+
+#iconiq5 {
+  background-image: url(makeover5.jpg);
+}
+
+#website {
+  width: 300px;
+  height: 300px;
+  display: block;
+  margin-left: 270px;
+
+}
+#website h1 {
+  margin-left: 270px;
+}
+
+.mySlides h2 {
+  max-width: 300px;
+  max-height: 300px;
+  width: 50%;
+  height: 600px;
+  /*position: absolute;*/
+  top:0;
+  z-index: -1;
+  color: grey;
+  margin: 52px;
+   
+}
+.box h1 {
+  margin-top: 400px;
+  text-align: center;
+}
+
+main {
+  margin-top: 600px;
+  text-align: left;
+  width: 800px;
+  display: inline-block;  
+}
+
+.link {
+  cursor: pointer;
+}
+
+/*contact page*/
+.hanging {
+  background-image: url(https://pbs.twimg.com/media/CpdFNduXgAEcMJ6.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 1000px;
+  position: absolute;
+  top:0;
+  z-index: -1;
+}
+
+.contact {
+  background: rgba(255,255,255,0.78);
+  height:20px;
+  width:20px;
+  position:absolute;
+  margin-top: 150px;
+  margin-right: 0;
+  left:-1000px;
+  border-radius: 250px;
+}
+
+.info {
+  padding-right: 10%;
+
+}
+
+h3 {
+  text-align: center;
+  padding-top: 150px;
+}
+
+#number {
+  font-weight: bold;
+  text-align: center;
+}
+
+form {
+  padding: 0px;
+  margin-left: 190px;
+  margin-top: 40px;
+  color: grey;
+  font-family: Helvetica;
+  font-size: 16px;
+}
+
+/*Home page video*/
+.fullscreen-bg {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -100;
+}
+
+.fullscreen-bg__video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: auto;
+    height: auto;
+    min-width: 100%;
+    min-height: 100%;
+    -webkit-transform: translate(-50%, -50%);
+       -moz-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+}
+
+@media (max-width: 767px) {
+    .fullscreen-bg {
+        background: url('http://dev2.slicejack.com/fullscreen-video-demo/img/videoframe.jpg') center center / cover no-repeat;
+    }
+
+    .fullscreen-bg__video {
+        display: none;
+    }
+}
