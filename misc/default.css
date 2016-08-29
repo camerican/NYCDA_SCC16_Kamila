@@ -1,0 +1,93 @@
+nav {
+	background-color: #b3b3b3;	
+	position: fixed;
+	width: 100%;
+	top:0;
+	opacity: 0.9;
+}
+
+nav ul li {
+	display: inline-block;	
+	padding: 0;
+	margin-right: 150px;
+	margin-left:150px;
+	margin-top: 0;
+	color: white;
+	list-style: none;
+	font-size: 16px;
+}
+
+li {
+	  margin-top: 2px;
+    margin-bottom: 2px;
+    margin-right: 150px;
+    margin-left: 80px;
+}
+
+li a:hover {
+  background-color: orange;
+  color: white;
+}
+
+a {
+ 	color: white;
+ }
+
+body {
+		color: #696969;
+   	padding: 0;
+   	font-size: 20px;
+   	margin: 0;
+   }   
+
+.first {
+	margin-top: 15%;
+	display: inline-block;
+	width: 300px;
+	margin-left: 2%;
+  padding: 0 10px 0 10px;
+  vertical-align: top;
+}
+
+.first img {
+ margin-left: 70px;
+}
+
+#cc {
+	margin-left: 7%;
+}
+
+h1, h2, h3 {
+ 	text-align: center;
+ 	font-style: "Georgia";
+ 	color: #696969;
+ 	}
+
+img {
+ 	width: 40%;
+ 	height: auto;
+ 	display: block;
+ 	margin-left: 250px;
+ 	padding: 10px 10px 0 10px;
+ }
+
+img:hover {
+  opacity: 0.5;
+  filter: alpha(opacity=50); 
+    }
+
+footer {
+	color: #696969;
+	text-align: center;
+}
+
+.act {
+	/*font-size: 20px;*/
+	color: grey;
+}
+
+.move-me {
+	position: fixed;
+	top: 125px;
+	margin-right: 50px;
+}

@@ -1,0 +1,157 @@
+body {
+  background-color: white;
+  color: red;
+  margin: 0;
+  padding: 0;   
+}
+
+nav {
+	background-color: #b3b3b3;	
+	position: fixed;
+	width: 100%;
+	top:0;
+	opacity: 0.9;
+}
+
+nav ul li {
+	display: inline-block;	
+	padding: 0;
+	margin-right: 95px;
+	margin-left:95px;
+	margin-top: 0;
+	color: white;
+	list-style: none;
+	font-size: 16px;
+}
+
+li {
+	margin-top: 2px;
+    margin-bottom: 2px;
+    margin-right: 150px;
+    margin-left: 80px;
+}
+
+a {
+  border-radius: 2px;
+}
+
+li a:visited {
+  color: red;
+}
+
+li a:hover {
+  background-color: black;
+  color: white;
+  border-radius: 2px;
+}
+
+.my-float1 {
+	margin: 300px;
+	width: 330px;
+	height:100px;
+	margin-top: 20px;
+	float: left;
+	text-align: justify;
+	position: left;
+
+}
+
+.my-float2 {
+	margin: 143px;
+    width: 330px;
+    height: 36px;
+    margin-top: -403px;
+    float: right;
+    text-align: justify;
+    position: right;
+}
+
+.my-float3 {
+    width: 300px;
+    margin-top: -15px;
+    margin-left: 80px;
+    float: left;
+    text-align: left;	
+}
+
+
+.my-float4 {
+    /* margin: 392px; */
+    width: 300px;
+    /* height: 0px; */
+    margin-top: 50px;
+    margin-left: 39%;
+    /* margin: 391px; */
+    float: center;
+    text-align: center;
+	
+}
+.my-float5 {
+	margin: 50px;
+    width: 300px;
+    /* height: 100px; */
+    margin-top: -175%;
+    float: right;
+    text-align: right;
+    vertical-align: top;
+	
+}
+div{
+	margin: 20px;
+
+.column {
+	vertical-align: top
+}
+	
+}
+
+h1 {
+	text-align: center;
+	color: red;
+	padding-top: 70px;
+}
+
+h2 {
+	text-align: center;
+  padding-top: 60px;
+  margin-bottom: 50px;
+	color: red;
+	
+}
+
+header {
+	background-color: black;
+
+}
+
+img {
+	background-image: url('../img.jpg');
+	margin-left: 10px;
+	height: 100px;
+  width: 100px;
+	display: block;
+}
+
+.move-me {
+	position: fixed;
+	top: 200px;
+	margin-right: 50px;
+}
+
+.newspaper {
+	column-count: 3;
+	margin: 20px;
+} 
+span{
+	color:red;
+	display: bold;
+}
+  
+.paragraph {
+	font-family: Georgia bold;
+}
+
+p{
+	text-indent: 20px;
+}
+
